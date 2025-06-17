@@ -11,6 +11,7 @@
   "author": "Aaditya",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon -r dotenv/config src/index.js"
   },
   "devDependencies": {
@@ -20,5 +21,11 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.0"
+=======
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+>>>>>>> bc6c003d59c23bb2f4837914ceb83799c1c6a1c6
   }
 }
